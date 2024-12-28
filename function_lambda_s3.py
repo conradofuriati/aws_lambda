@@ -6,8 +6,8 @@ import io
 import logging
 
 # Importa a função process_files do script import_files.py
-from import_files import process_files #acmp615
-from import_files import process_message #precisa importar a function process_files?
+from import_files import process_files
+from import_files import process_message
 
 # Carrega as variáveis de ambiente do arquivo .env
 from dotenv import load_dotenv
